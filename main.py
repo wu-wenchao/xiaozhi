@@ -6,7 +6,7 @@ from utils import send_request  # 从utils模块导入send_request函数，用�
 
 # 页面标题
 st.title("小智打卡工具")
-st.markdown("By口天吴")
+st.markdown("By口")
 
 # 使用Streamlit的文本输入组件获取token
 token = st.text_input("请输入token：", type="password")
