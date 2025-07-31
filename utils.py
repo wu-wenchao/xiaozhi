@@ -47,7 +47,7 @@ def send_request(token):
 
     results = []
     try:
-        for i in range(1):
+        for i in range(10):
             start_time = time.time()
             response = requests.post(
                 url,
